@@ -18,11 +18,6 @@
   </p>
 </div>
 
-
-<div align="center">
-  
-### :octocat: ‎ <sup><sub><samp>HI THERE! THANKS FOR DROPPING BY!</samp></sub></sup>
-
 <!-- Showcase Section -->
 <div align="center" style="margin: 40px auto;">
   <img src="fish.png" 
@@ -54,6 +49,10 @@ fish_variables
       Nerd Font</a> to display all icons and symbols properly.
   </p>
 </div>
+
+<div align="center">
+  
+### :octocat: ‎ <sup><sub><samp>HI THERE! THANKS FOR DROPPING BY!</samp></sub></sup>
 
 
 <!-- Footer -->
