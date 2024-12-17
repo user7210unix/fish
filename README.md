@@ -10,28 +10,20 @@
   </h2>
 </div>
 
-<!-- Inspiration and Showcase Section Side-by-Side -->
-<div style="display: flex; align-items: center; justify-content: center; 
-            max-width: 900px; margin: 50px auto; font-family: Arial, sans-serif;">
+<!-- Inspiration Section -->
+<div align="center" style="margin: 40px 0;">
+  <h2 style="font-size: 2rem; color: #444;">💡 Inspiration</h2>
+  <p style="font-size: 1.1rem; line-height: 1.6; color: #555; max-width: 600px; margin: 0 auto;">
+    Designed for speed and minimalism, this configuration creates a clean and functional shell experience.
+  </p>
+</div>
 
-  <!-- Left: Image -->
-  <div style="flex: 1; padding-right: 20px;">
-    <img src="fish.png" 
-         alt="Fish Config Preview" 
-         style="max-width: 100%; border: 2px solid #ddd; border-radius: 12px; 
-                box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); display: block; margin: 0 auto;">
-  </div>
-
-  <!-- Right: Text -->
-  <div style="flex: 1; text-align: left; padding-left: 20px; color: #444;">
-    <h2 style="font-size: 2.5rem; margin-bottom: 15px; color: #444;">💡 Inspiration</h2>
-    <p style="font-size: 1.2rem; line-height: 1.8; color: #555;">
-      Designed for <span style="font-weight: bold; color: #0073e6;">speed</span> and 
-      <span style="font-weight: bold; color: #0073e6;">minimalism</span>, 
-      this configuration creates a <strong>clean</strong> and <strong>functional</strong> shell experience.
-    </p>
-  </div>
-
+<!-- Showcase Section -->
+<div align="center" style="margin: 40px auto;">
+  <img src="fish.png" 
+       alt="Fish Config Preview" 
+       style="max-width: 700px; width: 100%; border: 2px solid #ddd; 
+              border-radius: 12px; box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);">
 </div>
 
 <!-- Fonts Section -->
