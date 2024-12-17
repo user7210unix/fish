@@ -15,6 +15,8 @@
   </h2>
 </div>
 
+<div align="center">
+  
 ### :octocat: ‎ <sup><sub><samp>HI THERE! THANKS FOR DROPPING BY!</samp></sub></sup>
 
 <!-- Showcase Section -->
