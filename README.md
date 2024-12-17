@@ -27,17 +27,21 @@
 </div>
 
 <!-- File Structure -->
-<div style="max-width: 800px; margin: 0 auto 40px; font-family: Arial, sans-serif;">
-  <h2 style="font-size: 2rem; color: #444; text-align: center;">📂 File Structure</h2>
-  <pre style="background: #f7f7f7; padding: 20px; border-radius: 8px; color: #333; 
-               font-size: 1rem; line-height: 1.6; overflow-x: auto;">
-conf.d/
-│── omf.fish
-│
-config.fish
-│
-fish_variables
-  </pre>
+<div style="max-width: 800px; margin: 50px auto; font-family: 'Arial', sans-serif; text-align: center;">
+  <h2 style="font-size: 2.5rem; color: #444; margin-bottom: 20px;">📂 File Structure</h2>
+  <div style="display: inline-block; background: #f7f9fc; padding: 20px 30px; 
+              border-radius: 12px; box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1); text-align: left; 
+              color: #333; font-size: 1rem; line-height: 1.6;">
+
+    <code style="font-family: 'Courier New', monospace; font-size: 1.1rem; color: #555;">
+      <span style="color: #0073e6; font-weight: bold;">conf.d/</span><br>
+      ├── <span style="color: #28a745;">omf.fish</span><br>
+      <br>
+      <span style="color: #0073e6; font-weight: bold;">config.fish</span><br>
+      <br>
+      <span style="color: #0073e6; font-weight: bold;">fish_variables</span>
+    </code>
+  </div>
 </div>
 
 <!-- Fonts Section -->
