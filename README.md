@@ -43,7 +43,45 @@
   </a>
 </div>
 
-<!-- Footer -->
-<div align="center" style="margin: 50px 0; color: #777; font-size: 1rem; font-family: Arial, sans-serif;">
-  <p>Crafted with ❤️ for developers who value <strong>speed</strong> and <strong>minimalism</strong>.</p>
+<!-- Install Guide Section -->
+<div style="max-width: 800px; margin: 50px auto; font-family: Arial, sans-serif; color: #333;">
+
+  <!-- Section Header -->
+  <h2 style="font-size: 2.5rem; text-align: center; margin-bottom: 20px; color: #444;">
+    🚀 Installation Guide
+  </h2>
+
+  <p style="font-size: 1.2rem; text-align: center; line-height: 1.6; color: #555;">
+    Follow these steps to clone and set up the Fish configuration.
+  </p>
+
+  <!-- Step 1: Clone Repository -->
+  <div style="background: #f7f7f7; padding: 20px; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <h3 style="font-size: 1.5rem; color: #0073e6; margin-bottom: 10px;">1️⃣ Clone the Repository</h3>
+    <pre style="background: #272822; color: #f8f8f2; padding: 15px; border-radius: 8px; overflow-x: auto; font-size: 1rem;">
+<span style="color: #66d9ef;">git clone</span> https://github.com/user7210unix/fish-conf.git
+<span style="color: #66d9ef;">cd</span> fish-conf</pre>
+  </div>
+
+  <!-- Step 2: Copy Entire Fish Folder -->
+  <div style="background: #f7f7f7; padding: 20px; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <h3 style="font-size: 1.5rem; color: #0073e6; margin-bottom: 10px;">2️⃣ Copy the Fish Folder</h3>
+    <pre style="background: #272822; color: #f8f8f2; padding: 15px; border-radius: 8px; overflow-x: auto; font-size: 1rem;">
+<span style="color: #66d9ef;">sudo cp</span> -r fish ~/.config/</pre>
+  </div>
+
+  <!-- Step 3: Start Fish Shell -->
+  <div style="background: #f7f7f7; padding: 20px; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <h3 style="font-size: 1.5rem; color: #0073e6; margin-bottom: 10px;">3️⃣ Start Fish Shell</h3>
+    <pre style="background: #272822; color: #f8f8f2; padding: 15px; border-radius: 8px; overflow-x: auto; font-size: 1rem;">
+<span style="color: #66d9ef;">fish</span></pre>
+    <p style="font-size: 1rem; color: #555; margin-top: 10px;">
+      Fish should now load with your new configuration! 🎉
+    </p>
+  </div>
+
+  <!-- Footer -->
+  <div style="text-align: center; margin: 40px 0; color: #777; font-size: 1rem;">
+    <p>Enjoy a fast and minimal Fish shell experience! 💻</p>
+  </div>
 </div>
