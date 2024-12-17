@@ -15,12 +15,10 @@
   </h2>
 </div>
 
+### :octocat: ‎ <sup><sub><samp>HI THERE! THANKS FOR DROPPING BY!</samp></sub></sup>
+
 <!-- Showcase Section -->
 <div align="center" style="margin: 40px auto;">
-  <h2 style="font-size: 2rem; color: #444;">🎨 Showcase</h2>
-  <p style="font-size: 1.1rem; line-height: 1.6; color: #555; margin-bottom: 20px;">
-    Below is a preview of my minimalist Fish configuration setup.
-  </p>
   <img src="fish.png" 
        alt="Fish Config Preview" 
        style="max-width: 700px; width: 100%; border: 2px solid #ddd; 
