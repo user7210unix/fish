@@ -70,11 +70,11 @@
 <span style="color: #66d9ef;">sudo cp</span> -r fish ~/.config/</pre>
   </div>
 
-  <!-- Step 3: Start Fish Shell -->
+  <!-- Step 3: Set as Default Shell -->
   <div style="background: #f7f7f7; padding: 20px; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-    <h3 style="font-size: 1.5rem; color: #0073e6; margin-bottom: 10px;">3️⃣ Start Fish Shell</h3>
+    <h3 style="font-size: 1.5rem; color: #0073e6; margin-bottom: 10px;">3️⃣ Set as Default Shell</h3>
     <pre style="background: #272822; color: #f8f8f2; padding: 15px; border-radius: 8px; overflow-x: auto; font-size: 1rem;">
-<span style="color: #66d9ef;">fish</span></pre>
+<span style="color: #66d9ef;"> chsh -s $(which fish) </span></pre>
     <p style="font-size: 1rem; color: #555; margin-top: 10px;">
       Fish should now load with your new configuration! 🎉
     </p>
