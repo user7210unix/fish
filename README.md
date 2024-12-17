@@ -23,4 +23,9 @@
 <div align="center" style="margin: 30px 0;">
   <h2>🎨 Needed Fonts</h2>
   <p style="font-size: 19px; line-height: 1.6; color: #7c3f00;">
-    The Nerd Font Pack is needed to render the icons [Nerd Fonts](https://www.nerdfonts.com/font-downloads/)
+    The Nerd Font Pack is needed to render the icons
+    [Nerd Fonts](https://www.nerdfonts.com/font-downloads/)
+
+<h3 align="center">
+    <a href="#----setup-----wiki-----gallery-----tip-jar"><tt>👆 Back to top</tt></a>
+</h3>
