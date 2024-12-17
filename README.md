@@ -24,4 +24,6 @@
   <h2>🎨 Needed Fonts</h2>
   <p style="font-size: 19px; line-height: 1.6; color: #7c3f00;">
     The Nerd Font Pack is needed to render the icons
-    strong> <a href="https://www.nerdfonts.com/font-downloads " style="text-decoration: none; color: inherit;">
+    <div align="center">
+  <h2 style="font-size: 24px;">
+    <strong> <a href="https://www.nerdfonts.com/font-downloads " style="text-decoration: none; color: inherit;">
