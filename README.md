@@ -6,7 +6,7 @@
 <div align="center">
   <h2 style="font-size: 24px;">
     <strong> <a href="https://fishshell.com/" style="text-decoration: none; color: inherit;">
-      <img src="https://fishshell.com/favicon.ico" alt="DWM Icon" style="vertical-align: middle; width: 24px; height: 24px; margin-right: 8px;">
+      <img src="https://fishshell.com/favicon.ico" alt="Fish Icon" style="vertical-align: middle; width: 24px; height: 24px; margin-right: 8px;">
       Fish Shell</a> 
     </strong>
   </h2>
@@ -23,7 +23,4 @@
 <div align="center" style="margin: 30px 0;">
   <h2>🎨 Needed Fonts</h2>
   <p style="font-size: 19px; line-height: 1.6; color: #7c3f00;">
-    The Nerd Font Pack is needed to render the icons
-    <div align="center">
-  <h2 style="font-size: 24px;">
-    <strong> <a href="https://www.nerdfonts.com/font-downloads " style="text-decoration: none; color: inherit;">
+    The Nerd Font Pack is needed to render the icons [Nerd Fonts](https://www.nerdfonts.com/font-downloads/)
