@@ -10,6 +10,15 @@
   </h2>
 </div>
 
+<!-- Inspiration Section -->
+<div align="center" style="margin: 40px 0;">
+  <h2 style="font-size: 2rem; color: #444;">💡 Inspiration</h2>
+  <p style="font-size: 1.1rem; line-height: 1.6; color: #555; max-width: 600px; margin: 0 auto;">
+    Designed for speed and minimalism, this configuration creates a clean and functional shell experience.
+  </p>
+</div>
+
+
 <div align="center">
   
 ### :octocat: ‎ <sup><sub><samp>HI THERE! THANKS FOR DROPPING BY!</samp></sub></sup>
@@ -46,13 +55,6 @@ fish_variables
   </p>
 </div>
 
-<!-- Inspiration Section -->
-<div align="center" style="margin: 40px 0;">
-  <h2 style="font-size: 2rem; color: #444;">💡 Inspiration</h2>
-  <p style="font-size: 1.1rem; line-height: 1.6; color: #555; max-width: 600px; margin: 0 auto;">
-    Designed for speed and minimalism, this configuration creates a clean and functional shell experience.
-  </p>
-</div>
 
 <!-- Footer -->
 <div align="center" style="margin: 40px 0; color: #777; font-size: 0.9rem;">
