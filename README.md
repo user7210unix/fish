@@ -1,3 +1,4 @@
+<div align="center">
   <!-- Fish Shell Header -->
   <h2 style="font-size: 1.8rem; margin: 20px 0;">
     <a href="https://fishshell.com/" style="text-decoration: none; color: inherit;">
