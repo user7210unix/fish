@@ -26,22 +26,6 @@
               border-radius: 12px; box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);">
 </div>
 
-<div align="center" style="margin: 40px auto;">
-
-<!-- File Structure -->
-<div style="max-width: 800px; margin: 0 auto 40px; font-family: Arial, sans-serif;">
-  <h2 style="font-size: 2rem; color: #444; text-align: center;">📂 File Structure</h2>
-  <pre style="background: #f7f7f7; padding: 20px; border-radius: 8px; color: #333; 
-               font-size: 1rem; line-height: 1.6; overflow-x: auto;">
-conf.d/
-│── omf.fish
-│
-config.fish
-│
-fish_variables
-  </pre>
-</div>
-
 <!-- Fonts Section -->
 <div align="center" style="margin: 50px auto; font-family: Arial, sans-serif; color: #333;">
   <h2 style="font-size: 2.5rem; color: #444; margin-bottom: 15px;">🖋️ Required Fonts</h2>
