@@ -1,9 +1,3 @@
-<div align="center" style="font-family: Arial, sans-serif; color: #333; margin: 0;">
-  <!-- Title -->
-  <h1 style="font-size: 3rem; margin-bottom: 10px;">
-    ⌨️ <strong>𝗙𝗜𝗦𝗛 ― 𝗖𝗢𝗡𝗙𝗜𝗚</strong> ⌨️
-  </h1>
-
   <!-- Fish Shell Header -->
   <h2 style="font-size: 1.8rem; margin: 20px 0;">
     <a href="https://fishshell.com/" style="text-decoration: none; color: inherit;">
