@@ -10,6 +10,16 @@
   </h2>
 </div>
 
+
+<div align="center">
+
+### 𝙄𝙣𝙨𝙩𝙖𝙡𝙡𝙖𝙩𝙞𝙤𝙣 🥳
+
+```
+curl -fsSL https://raw.githubusercontent.com/user7210unix/fish-conf/main/install.sh | bash
+```
+
+
 <!-- Inspiration Section -->
 <div align="center" style="margin: 40px 0;">
   <h2 style="font-size: 2rem; color: #444;">💡 Inspiration</h2>
@@ -26,33 +36,3 @@
               border-radius: 12px; box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);">
 </div>
 
-<!-- Fonts Section -->
-<div align="center" style="margin: 50px auto; font-family: Arial, sans-serif; color: #333;">
-  <h2 style="font-size: 2.5rem; color: #444; margin-bottom: 15px;">🖋️ Required Fonts</h2>
-  <p style="font-size: 1.2rem; line-height: 1.6; color: #555; max-width: 700px; margin: 0 auto;">
-    To properly display icons and symbols in your terminal, install the 
-    <span style="color: #0073e6; font-weight: bold; text-decoration: underline;">Nerd Fonts</span> pack.
-  </p>
-  
-  <!-- Button -->
-  <a href="https://www.nerdfonts.com/font-downloads" target="_blank" 
-     style="display: inline-block; margin: 25px 0; padding: 12px 24px; font-size: 1rem; 
-            color: #fff; background-color: #0073e6; border-radius: 8px; text-decoration: none; 
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); font-weight: bold;">
-    🚀 Download Nerd Fonts
-  </a>
-</div>
-
-<!-- Install Guide Section -->
-<div style="max-width: 800px; margin: 50px auto; font-family: Arial, sans-serif; color: #333;">
-
-  <!-- Section Header -->
-  <h2 style="font-size: 2.5rem; text-align: center; margin-bottom: 20px; color: #444;">
-    🚀 Installation Guide
-  </h2>
-
-### 𝙄𝙣𝙨𝙩𝙖𝙡𝙡𝙖𝙩𝙞𝙤𝙣 🥳
-
-```
-curl -fsSL https://raw.githubusercontent.com/user7210unix/fish-conf/main/install.sh | bash
-```
