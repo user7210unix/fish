@@ -11,13 +11,7 @@
 </div>
 
 
-<div align="center">
 
-### 𝙄𝙣𝙨𝙩𝙖𝙡𝙡𝙖𝙩𝙞𝙤𝙣 🥳
-
-```
-curl -fsSL https://raw.githubusercontent.com/user7210unix/fish-conf/main/install.sh | bash
-```
 
 
 <!-- Inspiration Section -->
@@ -36,3 +30,10 @@ curl -fsSL https://raw.githubusercontent.com/user7210unix/fish-conf/main/install
               border-radius: 12px; box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);">
 </div>
 
+<div align="center">
+
+### 𝙄𝙣𝙨𝙩𝙖𝙡𝙡𝙖𝙩𝙞𝙤𝙣 🥳
+
+```
+curl -fsSL https://raw.githubusercontent.com/user7210unix/fish-conf/main/install.sh | bash
+```
