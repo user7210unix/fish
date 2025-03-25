@@ -8,10 +8,29 @@ set -g fish_color_operator yellow
 set -g fish_color_argument blue
 
 function fish_prompt
-    set_color normal
-    echo -n (basename (pwd))
-    set_color normal
-    echo -n '  '
+    set -l pwd (pwd | sed "s|$HOME|~|")  # Replace $HOME with ~ for home directory
+    set -l last_dir (basename "$pwd")   # Extract the last directory name
+    set -l parent_dir (dirname "$pwd") # Extract the parent directory
+
+    # If in home (~), show [~]
+    if test "$pwd" = "~"
+        set_color grey
+        echo -n "["
+        set_color normal
+        echo -n "~"
+        set_color grey
+        echo -n "]  "
+    else
+        # Display [parentdir/lastdir] with brackets in grey and lastdir in blue
+        set_color grey
+        echo -n "["
+        set_color normal
+        echo -n (string replace "$last_dir" "" "$pwd")
+        set_color blue
+        echo -n "$last_dir"
+        set_color grey
+        echo -n "]  "
+    end
 
     set_color blue
     echo -n ' '
@@ -21,17 +40,23 @@ end
 
 alias ls='ls -a --color=auto'
 alias grep='grep --color=auto'
-alias fetch='pfetch'
+#alias fetch='pfetch'
 alias c='clear'
-alias off='sudo poweroff'
+alias off='poweroff'
 
-# alias -i='sudo nala install -y'
-# alias -i='sudo emerge'
-# alias -i='sudo pacman -Sy --noconfirm'
-# alias -i='doas pkg install'
-# alias -i='kpkg install'
+alias langde='setxkbmap de'
+alias langus='setxkbmap us'
 
-# alias update='sudo nala update && sudo nala upgrade'
+# alias install='sudo nala install -y'
+# alias install='apt nala install -y'
+# alias install='sudo emerge'
+# alias install='sudo pacman -Sy --noconfirm'
+# alias install='doas pkg install'
+# alias install='kpkg install'
+
+
+# alias update='sudo apt update -y && sudo apt upgrade -y'
+# alias update='sudo nala update -y && sudo nala upgrade -y'
 # alias update='sudo emerge sync'
 # alias update='sudo pacman -Syu --noconfirm'
 # alias update='doas pkg update'
