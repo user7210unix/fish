@@ -1,3 +1,8 @@
+# ▗▄▄▄▖▗▄▄▄▖ ▗▄▄▖▗▖ ▗▖     ▗▄▄▖ ▗▄▖ ▗▖  ▗▖▗▄▄▄▖▗▄▄▄▖ ▗▄▄▖
+# ▐▌     █  ▐▌   ▐▌ ▐▌    ▐▌   ▐▌ ▐▌▐▛▚▖▐▌▐▌     █  ▐▌   
+# ▐▛▀▀▘  █   ▝▀▚▖▐▛▀▜▌    ▐▌   ▐▌ ▐▌▐▌ ▝▜▌▐▛▀▀▘  █  ▐▌▝▜▌
+# ▐▌   ▗▄█▄▖▗▄▄▞▘▐▌ ▐▌    ▝▚▄▄▖▝▚▄▞▘▐▌  ▐▌▐▌   ▗▄█▄▖▝▚▄▞▘
+                                                       
 set -g fish_color_normal white
 set -g fish_color_command green
 set -g fish_color_redirection yellow
@@ -6,6 +11,11 @@ set -g fish_color_comment cyan
 set -g fish_color_command_substitution magenta
 set -g fish_color_operator yellow
 set -g fish_color_argument blue
+
+#  ▗▄▖ ▗▖ ▗▖▗▄▄▄▖▗▄▄▖ ▗▖ ▗▖▗▄▄▄▖
+# ▐▌ ▐▌▐▌ ▐▌  █  ▐▌ ▐▌▐▌ ▐▌  █  
+# ▐▌ ▐▌▐▌ ▐▌  █  ▐▛▀▘ ▐▌ ▐▌  █  
+# ▝▚▄▞▘▝▚▄▞▘  █  ▐▌   ▝▚▄▞▘  █  
 
 function fish_prompt
     set -l pwd (pwd | sed "s|$HOME|~|")  # Replace $HOME with ~ for home directory
@@ -37,6 +47,11 @@ function fish_prompt
     set_color normal
     echo -n '  '
 end
+
+#  ▗▄▖ ▗▖   ▗▄▄▄▖ ▗▄▖  ▗▄▄▖
+# ▐▌ ▐▌▐▌     █  ▐▌ ▐▌▐▌   
+# ▐▛▀▜▌▐▌     █  ▐▛▀▜▌ ▝▀▚▖
+# ▐▌ ▐▌▐▙▄▄▖▗▄█▄▖▐▌ ▐▌▗▄▄▞▘
 
 alias ls='ls -a --color=auto'
 alias grep='grep --color=auto'
